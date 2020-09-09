@@ -1,0 +1,21 @@
+.abyacente h2 + p{
+    color: red;
+}
+.general{
+    padding-top: 25px;
+}
+.general h2 ~ p{
+    color: red;
+}
+.hijo{
+    padding-top: 25px;
+}
+.hijo div > p{
+    color: red;
+}
+.decendiente{
+    padding-top: 25px;
+}
+.decendiente div p{
+    color: red;
+}
