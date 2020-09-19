@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 70%;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+}
+.box-small{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: red;
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    top: 2%;
+    z-index: 2;
+    text-align: center;
+}
+.box-small p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-big{
+    width: 50%;
+    height: 300px;
+    margin: 0 auto 0 auto;
+    border: 1px solid;
+    border-radius: 45px;
+    background-color: gray;
+    position: relative; 
+}
+.box-big p{
+    margin: 20% 20%;
+}
